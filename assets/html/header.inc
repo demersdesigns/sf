@@ -12,8 +12,8 @@
   <meta property="og:url" content=""/>
   <meta property="og:site_name" content=""/>
 
-
   <link rel="shortcut icon" href="favicon.ico"/>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
   <!-- build:css css/style.css -->
   <link rel="stylesheet" href="css/style.css">
   <!-- endbuild -->

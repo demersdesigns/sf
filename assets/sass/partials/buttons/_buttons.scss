@@ -1,0 +1,43 @@
+// Buttons
+//
+// Markup: buttons.hbs
+//
+// .btn--secondary - A white button with dark colored text
+// .btn--cta - A call to action button
+//
+//
+// Styleguide 3.0.0
+
+.btn{
+  border: 1px solid $green;
+  color: $green;
+  background: transparent;
+  border-radius: 8px;
+  font-weight: 700;
+  padding: .65rem 2rem;
+  transition: background-color $transition-time;
+
+  &:hover{
+    background-color: #D8D8D8;
+  }
+
+  &.btn--secondary{
+    background-color: $pink;
+    color: #fff;
+    border-color: $pink;
+
+    &:hover{
+      @include bg-hover($pink);
+    }
+  }
+
+  &.btn--cta{
+    background-color: $green;
+    color: #fff;
+    border-color: $green;
+
+    &:hover{
+      @include bg-hover($green);
+    }
+  }
+}

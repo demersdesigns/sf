@@ -1,0 +1,42 @@
+// Blockquotes
+//
+// Markup: blockquotes.hbs
+//
+// Styleguide 4.0.0
+
+.quote{
+  width: 100%;
+  background-color: $pink;
+  display: block;
+  font-size: 1.5625rem;
+  line-height: 1.75;
+  font-weight: 300;
+  color: #fff;
+  padding: 1rem 0;
+  position: relative;
+
+  &:after{
+    content: "\"";
+    font-family: 'Lato', sans-serif;
+    font-size: 20rem;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-weight: 700;
+    line-height: 1;
+    opacity: .25;
+  }
+
+  p{
+    margin: 0;
+    font-style: italic;
+  }
+
+  cite{
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    display: block;
+    font-style: normal;
+  }
+}
+
